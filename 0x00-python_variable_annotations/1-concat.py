@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """
 This module contains a function that
-returns the floor of a float with type annotations.
+concatenates two strings with type annotations.
 """
-import math
 
 
-def floor(n: float) -> int:
+def concat(str1: str, str2: str) -> str:
     """
-    Return the floor of a float.
+    Concatenate two strings.
 
     Args:
-        n (float): The float number.
+        str1 (str): The first string.
+        str2 (str): The second string.
 
     Returns:
-        int: The floor of the float number.
+        str: The concatenated string.
     """
-    return math.floor(n)
+    return str1 + str2

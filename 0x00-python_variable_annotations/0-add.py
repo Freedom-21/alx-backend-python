@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """
-This module contains a function that
-concatenates two strings with type annotations.
+This module contains a function
+that adds two float numbers with type annotations.
 """
 
 
-def concat(str1: str, str2: str) -> str:
+def add(a: float, b: float) -> float:
     """
-    Concatenate two strings.
+    Add two floats.
 
     Args:
-        str1 (str): The first string.
-        str2 (str): The second string.
+        a (float): The first float number.
+        b (float): The second float number.
 
     Returns:
-        str: The concatenated string.
+        float: The sum of a and b.
     """
-    return str1 + str2
+    return a + b
