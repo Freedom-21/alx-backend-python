@@ -5,8 +5,8 @@ This module contains an asynchronous function that runs multiple coroutines conc
 
 import asyncio
 from typing import List
-
 wait_random = __import__('0-basic_async_syntax').wait_random
+
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """

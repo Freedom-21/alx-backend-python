@@ -4,8 +4,8 @@ This module contains a function that creates an asyncio task from an asynchronou
 """
 
 import asyncio
-
 wait_random = __import__('0-basic_async_syntax').wait_random
+
 
 def task_wait_random(max_delay: int) -> asyncio.Task:
     """
