@@ -10,7 +10,7 @@ from typing import Union
 
 async def wait_random(max_delay: int = 10) -> float:
     """
-    Asynchronous coroutine that waits for a random delay between 0 and max_delay.
+    Asynchronous coroutine that waits for a random delay
 
     Args:
         max_delay (int): Maximum delay in seconds (default is 10).
@@ -21,4 +21,3 @@ async def wait_random(max_delay: int = 10) -> float:
     delay: float = random.uniform(0, max_delay)
     await asyncio.sleep(delay)
     return delay
-

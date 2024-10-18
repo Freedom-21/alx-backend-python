@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-This module contains a function that creates an asyncio task from an asynchronous coroutine.
+This module contains a function that creates
+an asyncio task from an asynchronous coroutine.
 """
 
 import asyncio
@@ -18,4 +19,3 @@ def task_wait_random(max_delay: int) -> asyncio.Task:
         asyncio.Task: The asyncio task created from wait_random.
     """
     return asyncio.create_task(wait_random(max_delay))
-
